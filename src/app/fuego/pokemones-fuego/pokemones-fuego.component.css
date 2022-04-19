@@ -1,0 +1,26 @@
+.card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 20px;
+
+}
+p-card{
+    width: 350px;
+    margin-bottom: 5em;
+    margin-top: 5em;
+    cursor: pointer;
+    
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+p-card:hover{
+    
+    border:  2px solid red;
+}
